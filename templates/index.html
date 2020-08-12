@@ -1,0 +1,569 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="{% static 'https://fonts.googleapis.com/css?family=Space+Mono' %}" rel="stylesheet">
+	<link href="{% static 'https://fonts.googleapis.com/css?family=Kaushan+Script' %}" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="{% static 'js/respond.min.js' %}"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url({% static 'images/pr.jpg' %});" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url({% static 'images/user4.jpg' %});"></div>
+							<h1><span>Dinesh Mohite</span></h1>
+							<h3><span>Software Developer / Aspiring Data Engineer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-twitter2"></i></a></li>
+									<li><a href="#"><i class="icon-facebook2"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								</ul>
+							</p>
+							{% if fname %}
+								<center>
+									<h2><mark>Thanks {{ fname }}!</mark></h2>
+									<p><h2><mark>We received your email and will respond shortly...</mark></h2></p>
+
+								</center>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Dinesh Mohite</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">8369272806</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">mohitedinesh362@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">E-406 Satlaj Residancy, Sector 35 Kamothe, Navi Mumbai, 410209</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>Computer Science graduate passionate about data engineering. Proficient in JAVA, C, PYTHON, SQL, Django(Framework),Data Analysis and Data Modelling. </p>
+					<p>Strong in design and integration with intuitive problem-solving skills.Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-facebook3"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Fresher</h3>
+									<span class="company">Actively looking for job oppourtunity</span>
+									<span class="company">Immediate Joiner</span>
+
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachlors Degree</h3>
+									<span class="company">University of Mumbai - 2016 - 2020</span>
+								</div>
+								<div class="timeline-body">
+									<p>Degree in Computer Engineering with CGPA of 7.0</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title"> Undergraduate Degree</h3>
+									<span class="company">Yashwantrao Chavan Institue of Science, Satara - 2014 - 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Completed Undergradute with 78.31 percent from State Board</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">High School</h3>
+									<span class="company">Saraswati Vidyalaya koregaon - 2013 - 2014</span>
+								</div>
+								<div class="timeline-body">
+									<p>Completed high school with 91.60 percent from State Board</p>
+								</div>
+							</div>
+						</li>
+						
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Certifications</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="https://img.icons8.com/color/96/000000/python.png"/>
+							</span>
+							<div class="feature-copy">
+								<h3>Python</h3>
+								<p>Online certification from Udemy.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									width="96" height="96" viewBox="0 0 172 172"
+									style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#04b256"><path d="M85.9895,16.125c-9.52988,0 -56.23779,26.7885 -60.95166,34.9585c-4.71925,8.17537 -4.71925,61.70038 0,69.84351c4.73538,8.16463 51.44329,34.948 60.95166,34.948c9.4815,0 56.18966,-26.76775 60.94116,-34.927c4.76763,-8.18075 4.76763,-61.74749 0,-69.896v-0.0105c-4.78913,-8.15388 -51.49191,-34.9165 -60.94116,-34.9165zM85.97901,26.93799c9.12137,1.89737 45.26615,22.60213 51.5979,29.552c2.9025,8.82037 2.89712,50.17302 0,59.00952c-6.28875,6.93913 -42.46577,27.6705 -51.5979,29.5625c-9.12675,-1.88125 -45.27741,-22.60213 -51.57691,-29.552c-2.87563,-8.858 -2.87563,-50.17277 0,-59.02002c6.28338,-6.94988 42.44478,-27.67075 51.57691,-29.552zM69.875,48.375l-10.75,10.75h5.375v53.75h10.75v-21.5h21.5v21.5h-5.375l10.75,10.75l10.75,-10.75h-5.375v-48.375h-10.75v16.125h-21.5v-21.5h5.375z"></path></g></g></svg>
+							</span>
+							<div class="feature-copy">
+								<h3>Problem Solving</h3>
+								<p>HackarRank certified Problem Solver.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="https://img.icons8.com/fluent/96/000000/data-configuration.png"/>
+							</span>
+							<div class="feature-copy">
+								<h3>Data Modelling</h3>
+								<p>Certification in Introduction to Data Modelling for PowerBI</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-5 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Certification</h3>
+								<p>Learning New Things.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Certification</h3>
+								<p>Learning New Things</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Certificatio</h3>
+								<p>Learning New Things.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>HTML5</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="93"><span><strong>Python</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="89"><span><strong>C</strong>89%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>MySQL</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Django</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Data Analysis</strong>80%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Data Modelling</strong>85%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Java</span><span class="value-right">80%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">C</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Mysql</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Data Analysis</span><span class="value-right">80%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Data Modelling</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">ETL</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Project Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/res.jpg' %});">
+						<div class="desc">
+							<h3>Restaurant Data Analysis</h3>
+							<span>Final Year</span>
+							<p>Analyzed Zomato restaurants data of Banglore to get insights of resturant industry using data analysis and machine learning algorithm techniques </p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/oshop.jpg' %});">
+						<div class="desc">
+							<h3>Online Shopping System</h3>
+							<span></span>
+							<p>Interactive website for online shopping using php and mysql</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/websec.png' %});">
+						<div class="desc">
+							<h3>Web Development and Web Security</h3>
+							<span></span>
+							<p>Developed website and performed DDOS attack and demonstrated how to secure website</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/travello.jpg' %});">
+						<div class="desc">
+							<h3>Travello</h3>
+							<span>Website</span>
+							<p>Creating Tourism website using python Django framework under development phase</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/portfolio-6.jpg' %});">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/portfolio-7.jpg' %});">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Brading</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url({% static 'images/portfolio-8.jpg' %});">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>Available and Ready to join Anytime</p>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url({% static 'images/cover_bg_1.jpg' %});">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="submit/" method = 'POST'>
+				{% csrf_token %}
+
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" name="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" name="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" name="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" name="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+			</form>
+		</div>
+	</div>
+			<div id="map" class="fh5co-map"></div>
+	</div>
+
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy;2020 DineshMohite. All Rights Reserved. <br>Designed by <a href="#" target="_blank">Dinesh</a href=""></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Stellar Parallax -->
+	<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+	<!-- Easy PieChart -->
+	<script src="{% static 'js/jquery.easypiechart.min.js' %}"></script>
+	<!-- Google Map -->
+	<script src="{% static 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false' %}"></script>
+	<script src="{% static 'js/google_map.js' %}"></script>
+	
+	<!-- Main -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
+
